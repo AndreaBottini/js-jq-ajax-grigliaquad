@@ -5,6 +5,11 @@
 
 // Inizializzo il documento
 $(document).ready(function () {
+// inserimento Griglia con js
+  for (var i = 0; i < 6; i++) {
+    var template = $("#template > .riga").clone();
+    $(".griglia").append(template);
+  }
   // Ad ogni click del quadrato deve partire una richiesta AJAX per prendere un numero da 1 a 9. Quando mi viene fornito un risultato, devo effettuare un confronto per capire se il numero è minore di 5 o maggiore di 5. Se minore di 5 il quadrato diventerà giallo, se maggiore di 5 diventerà verde.
   $('.quadrato').click(function () {
     // console.log('provaClick');

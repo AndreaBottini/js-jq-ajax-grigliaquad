@@ -20,11 +20,14 @@ body {
   width: 200px;
   height: 200px;
   border: 1px solid grey;
+  font-size: 40px;
+  line-height: 200px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .yellow {
   background-color: yellow;
-  margin: auto;
 }
 
 .green {
