@@ -21,3 +21,12 @@ body {
   height: 200px;
   border: 1px solid grey;
 }
+
+.yellow {
+  background-color: yellow;
+  margin: auto;
+}
+
+.green {
+  background-color: green;
+}
