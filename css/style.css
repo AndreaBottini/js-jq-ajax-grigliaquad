@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+.riga {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.quadrato {
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+}
