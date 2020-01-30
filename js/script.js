@@ -6,7 +6,7 @@
 // Inizializzo il documento
 $(document).ready(function () {
 // inserimento Griglia con js
-  for (var i = 0; i < 6; i++) {
+  for (var i = 0; i < 5; i++) {
     var template = $("#template > .riga").clone();
     $(".griglia").append(template);
   }
